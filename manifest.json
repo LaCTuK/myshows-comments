@@ -1,0 +1,10 @@
+{
+   "content_scripts": [ {
+      "js": [ "js/jquery-2.1.4.min.js", "js/myshows_comments.js" ],
+      "matches": [ "https://myshows.me/*" ]
+   } ],
+   "description": "Упорядочивает комментарии на сайте myshows",
+   "manifest_version": 2,
+   "name": "Myshows comments",
+   "version": "0.2"
+}
